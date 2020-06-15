@@ -8,9 +8,22 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokkaebae/bootstrap-practice.git"
+  },
+  "author": "Kirby Ezekiel Santos",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dokkaebae/bootstrap-practice/issues"
+  },
+  "homepage": "https://github.com/dokkaebae/bootstrap-practice#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
