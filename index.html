@@ -43,8 +43,15 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
-                  <img src="img/logo.png" class="img-fluid">
+                <div class="col-12 col-sm-6 align-self-center">
+                  <div class="row">
+                    <div class="col-12 col-sm-6">
+                      <img src="img/logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 align-self-center">
+                      <a class="col-12 btn btn-block btn-sm btn-warning mt-2 mt-sm-0" href="#reserve_table" role="button"><h5>Reserve Table</h5></a>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -72,9 +79,15 @@
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
+
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+              <div class="media">
+                <div class="media-body">
+                  <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                  <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                </div>
+                <img class="d-flex ml-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+              </div>
             </div>
         </div>
 
@@ -92,6 +105,53 @@
                   </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row row-content align-items-center" id="reserve_table">
+          <div class="col-12 col-sm-8 offset-sm-2">
+            <div class="card">
+              <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group row">
+                  <label class="col-12 col-sm-3 col-form-label">Number of Guests</label>
+                  <div class="form-check col-12 col-sm-9">
+                    <input type="radio" name="reservationCount" id="reservationOne">
+                    <label class="form-check-label mr-2" for="reservationOne">1</label>
+
+                    <input type="radio" name="reservationCount" id="reservationTwo">
+                    <label class="form-check-label mr-2" for="reservationTwo">2</label>
+
+                    <input type="radio" name="reservationCount" id="reservationThree">
+                    <label class="form-check-label mr-2" for="reservationThree">3</label>
+
+                    <input type="radio" name="reservationCount" id="reservationFour">
+                    <label class="form-check-label mr-2" for="reservationFour">4</label>
+
+                    <input type="radio" name="reservationCount" id="reservationFive">
+                    <label class="form-check-label mr-2" for="reservationFive">5</label>
+
+                    <input type="radio" name="reservationCount" id="reservationSix">
+                    <label class="form-check-label mr-2" for="reservationSix">6</label>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-12 col-sm-3 col-form-label">Date and Time</label>
+                  <div class="col-12 col-sm-4">
+                    <input class="form-control" type="text" placeholder="Date">
+                  </div>
+                  <div class="col-12 col-sm-4">
+                    <input class="form-control" type="text" placeholder="Time">
+                  </div>
+                  <div class="col-12 col-sm-4 offset-sm-3">
+                    <br>
+                    <input class="btn btn-primary" type="submit" value="Reserve">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
     </div>
 
